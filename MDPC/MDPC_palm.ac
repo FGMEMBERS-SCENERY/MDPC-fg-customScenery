@@ -1,0 +1,35 @@
+AC3Db
+MATERIAL "default" rgb 0.72 0.72 0.72 amb 0.8 0.8 0.8 emis 0.08 0.08 0.08 spec 0.2 0.2 0.2 shi 128 trans 0
+MATERIAL "Material1" rgb 0.72 0.72 0.72 amb 0.8 0.8 0.8 emis 0.08 0.08 0.08 spec 0.2 0.2 0.2 shi 128 trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "blah"
+texture "MDPC_palm.png"
+numvert 5
+-1.579878 4.513600 -0.000000
+1.579878 -0.000000 -0.000000
+-1.579878 0.000000 0.000000
+1.579878 3.311896 -0.000000
+1.579878 4.513600 -0.000000
+numsurf 3
+SURF 0x30
+mat 1
+refs 3
+0 -0.0000 1.0008
+1 -1.0009 -0.0000
+2 -0.0000 -0.0000
+SURF 0x30
+mat 1
+refs 3
+1 -1.0009 -0.0000
+0 -0.0000 1.0008
+3 -1.0009 0.7343
+SURF 0x30
+mat 1
+refs 3
+3 -1.0009 0.7343
+0 -0.0000 1.0008
+4 -1.0009 1.0008
+kids 0
+
